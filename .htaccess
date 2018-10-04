@@ -1,0 +1,9 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+RewriteBase /test_site/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule  ^(.*)$ /bakeryin/index.php?route=$1 [L]
+
+

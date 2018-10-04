@@ -1,0 +1,34 @@
+.product-filter {
+    display: flex;
+}
+
+.product-filter h1 {
+    flex-grow: 1;
+}
+.sort {
+    display: flex;
+}
+
+.collection-sort {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    padding: 2.5%;
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+
+.product-info {
+    margin-top: auto;
+}

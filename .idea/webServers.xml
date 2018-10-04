@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a9e6d10e-9409-4ecb-a791-37a24445a26a" name="XAMPP" url="http://localhost/bakeryin">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\bakeryin" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
